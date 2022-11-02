@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <StyledContainer>
             <StyledTitle>
-                Sul territorio da più di <span>vent'anni</span>, al servizio dei cittadini
+                Sul territorio da più di <span>vent&apos;anni</span>, al servizio dei cittadini
                 e delle imprese, composto da un <span>team giovanile ed audace</span>, offre
                 prestazioni di qualità grazie alla forte presenza sul territorio ed alla
                 continua <span>collaborazione con i migliori professionisti</span> della zona quali notai,
