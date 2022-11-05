@@ -9,6 +9,10 @@ export const StyledHeader = styled.div`
     gap: 20px;
     padding: 25px 0;
     box-sizing: border-box;
+
+    @media (max-width: 900px) {
+        width: 90%;
+    }
 `;
 
 export const StyledLogo = styled.img`

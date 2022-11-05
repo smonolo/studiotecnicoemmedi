@@ -7,6 +7,7 @@ export default function Document() {
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="crossorigin" />
                 <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css" />
             </Head>
             <body>
                 <Main />

@@ -5,6 +5,14 @@ export const StyledContainer = styled.div`
     margin: 0 auto;
 
     &.margin {
-        margin-top: 30px;
+        margin-top: 50px;
+    }
+
+    @media (max-width: 900px) {
+        width: 90%;
+
+        &.margin {
+            margin-top: 30px;
+        }
     }
 `;

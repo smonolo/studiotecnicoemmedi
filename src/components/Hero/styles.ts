@@ -1,15 +1,7 @@
 import styled from "@emotion/styled";
 
-export const StyledContainer = styled.div`
-    width: 80%;
-    margin: 50px auto 0 auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-`;
-
 export const StyledTitle = styled.div`
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     color: #444450;
     width: 100%;
@@ -17,5 +9,21 @@ export const StyledTitle = styled.div`
 
     & > span {
         color: #225399;
+    }
+
+    @media (max-width: 900px) {
+        font-size: 25px;
+    }
+`;
+
+export const StyledButtons = styled.div`
+    width: fit-content;
+    margin: 70px auto 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
     }
 `;

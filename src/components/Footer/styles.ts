@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const StyledContainer = styled.div`
     width: 100%;
-    background-color: rgba(0, 0, 100, 0.1);
+    background-color: rgba(0, 0, 100, 0.05);
 `;
 
 export const StyledContent = styled.div`
