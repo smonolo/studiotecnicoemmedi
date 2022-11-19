@@ -10,16 +10,37 @@
         },
         {
             "title": "Attestato di prestazione energetica",
+            "content": "Realizzazione di attestato di prestazione energetica per vendite o affitti."
+        },
+        {
+            "title": "Consulenza immobiliare",
             "content": "Consulenza alla vendita e all'affitto, consistente nella preparazione e verifica di tutta la documentazione dell'immobile, interfaccia con i professionisti quali agenzie immobiliari, broker, commercialisti e notai."
         },
         {
             "title": "Valutazioni immobiliari per la vendita e per l'affitto dell'immobile"
         },
         {
-            "title": "Perizie tecniche estimative per la valutazione dell'immobile a fini legali"
+            "title": "Perizie tecniche estimative, perizie giurate e valutazioni immobiliari, per vendite e affitti"
         },
         {
-            "title": "Richiesta di documenti amministrativi quali titoli edilizi, permessi, concessioni o certificati di destinazione urbanistica"
+            "title": "Richiesta di accesso agli atti e certificati di destinazione urbanistica per vendite o successioni",
+            "content": "Richiesta di documenti amministrativi quali titoli edilizi, permessi, concessioni o certificati di destinazione urbanistica compreso di verifica della posizione edilizio-urbanistica e catastale."
+        },
+        {
+            "title": "Catasto fabbricati",
+            "content": "Aggiornamenti catastali e inserimento di nuove pratiche, frazionamenti e fusioni."
+        },
+        {
+            "title": "Direzione lavori e Sicurezza",
+            "content": "Direzione lavori e sicurezza nei cantieri, interfaccia con professionisti, imprese e fornitori, redazione della documentazione necessaria alla realizzazione di manufatti in cantiere."
+        },
+        {
+            "title": "Progetti",
+            "content": "Realizzazione di progetti per complessi immobiliari, unifamiliari e plurifamiliari."
+        },
+        {
+            "title": "Render e Planimetrie",
+            "content": "Realizzazione di rendering e planimetrie 3d per ristrutturazioni e nuove costruzioni."
         }
     ]
 }

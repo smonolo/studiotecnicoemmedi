@@ -21,6 +21,12 @@ export const StyledMap = styled.iframe`
     max-width: 90%;
 `;
 
+export const StyledColumn = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+`;
+
 export const StyledText = styled.div`
     display: flex;
     align-items: center;
@@ -29,10 +35,6 @@ export const StyledText = styled.div`
     font-weight: 600;
     color: #444450;
     cursor: pointer;
-    
-    &:not(:first-child) {
-        margin-top: 15px;
-    }
 
     @media (max-width: 900px) {
         font-size: 18px;

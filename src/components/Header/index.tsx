@@ -15,17 +15,21 @@ export default function Header() {
 
     return (
         <StyledHeader>
-            <Link href='/'>
-                <StyledLogo
-                    src='/images/logo.svg'
-                    alt='Studio Tecnico Immobiliare EmmeDì'
-                    draggable={false}
-                />
+            <Link href='/' passHref>
+                <a>
+                    <StyledLogo
+                        src='/images/logo.svg'
+                        alt='Studio Tecnico Immobiliare EmmeDì'
+                        draggable={false}
+                    />
+                </a>
             </Link>
             <StyledItems>
                 {data.items.map(({ text, url }, index) => (
-                    <Link key={index} href={url}>
-                        <StyledItem className={router.asPath === url ? 'active' : ''}>{text}</StyledItem>
+                    <Link key={index} href={url} passHref>
+                        <a>
+                            <StyledItem className={router.asPath === url ? 'active' : ''}>{text}</StyledItem>
+                        </a>
                     </Link>
                 ))}
             </StyledItems>

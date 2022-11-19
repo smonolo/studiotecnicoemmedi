@@ -13,3 +13,11 @@ body {
 #__next {
     flex-grow: 1;
 }
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    width: fit-content;
+    height: fit-content;
+}

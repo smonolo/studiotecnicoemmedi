@@ -24,10 +24,12 @@ export default function Services() {
                 ))}
             </StyledItems>
             <StyledContact>
-                <Link href='/contatti'>
-                    <Button>
-                        Contatta lo studio <i className='bi bi-arrow-right' />
-                    </Button>
+                <Link href='/contatti' passHref>
+                    <a>
+                        <Button>
+                            Contatta lo studio <i className='bi bi-arrow-right' />
+                        </Button>
+                    </a>
                 </Link>
             </StyledContact>
         </Fragment>

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import {
+    StyledColumn,
     StyledFlex,
     StyledMap,
     StyledText
@@ -15,23 +16,29 @@ export default function Contacts() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
             />
-            <div>
-                <Link href='tel:+39 339 567 8971'>
-                    <StyledText>
-                        <i className='bi bi-phone' /> +39 339 567 8971
-                    </StyledText>
+            <StyledColumn>
+                <Link href='tel:+39 339 567 8971' passHref>
+                    <a>
+                        <StyledText>
+                            <i className='bi bi-phone' /> +39 339 567 8971
+                        </StyledText>
+                    </a>
                 </Link>
-                <Link href='mailto:studiotecnicoemmedi@gmail.com'>
-                    <StyledText>
-                        <i className='bi bi-envelope' /> studiotecnicoemmedi@gmail.com
-                    </StyledText>
+                <Link href='mailto:studiotecnicoemmedi@gmail.com' passHref>
+                    <a>
+                        <StyledText>
+                            <i className='bi bi-envelope' /> studiotecnicoemmedi@gmail.com
+                        </StyledText>
+                    </a>
                 </Link>
-                <Link href='https://www.instagram.com/studiotecnico_emmedi/'>
-                    <StyledText>
-                        <i className='bi bi-instagram' /> @studiotecnico_emmedi
-                    </StyledText>
+                <Link href='https://www.instagram.com/studiotecnico_emmedi/' passHref>
+                    <a target='_blank'>
+                        <StyledText>
+                            <i className='bi bi-instagram' /> @studiotecnico_emmedi
+                        </StyledText>
+                    </a>
                 </Link>
-            </div>
+            </StyledColumn>
         </StyledFlex>
     );
 }

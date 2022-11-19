@@ -20,15 +20,19 @@ export default function Hero() {
                 dalla grande <span>ristrutturazione</span> alla <span>fornitura di pregio</span>.
             </StyledTitle>
             <StyledButtons>
-                <Link href='/servizi'>
-                    <Button>
-                        I nostri servizi <i className='bi bi-arrow-right' />
-                    </Button>
+                <Link href='/servizi' passHref>
+                    <a>
+                        <Button>
+                            I nostri servizi <i className='bi bi-arrow-right' />
+                        </Button>
+                    </a>
                 </Link>
-                <Link href='/contatti'>
-                    <Button>
-                        Contatta lo studio <i className='bi bi-arrow-right' />
-                    </Button>
+                <Link href='/contatti' passHref>
+                    <a>
+                        <Button>
+                            Contatta lo studio <i className='bi bi-arrow-right' />
+                        </Button>
+                    </a>
                 </Link>
             </StyledButtons>
         </Container>
