@@ -12,7 +12,19 @@ export const StyledButton = styled.div`
     font-weight: 600;
     color: #ffffff;
     cursor: pointer;
-    transition: background-color .3s;
+    transition: background-color .3s, color .3s;
+
+    &.white {
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 25px;
+        padding: 8px 17px;
+
+        &:hover {
+            background-color: #fff;
+            color: #225399;
+        }
+    }
 
     &:hover {
         background-color: #163765;

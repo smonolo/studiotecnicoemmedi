@@ -2,7 +2,8 @@ import styled from "@emotion/styled";
 
 export const StyledContainer = styled.div`
     width: 100%;
-    background-color: rgba(0, 0, 100, 0.05);
+    border-top: 1px solid #ddd;
+    box-sizing: border-box;
 `;
 
 export const StyledContent = styled.div`
@@ -10,9 +11,9 @@ export const StyledContent = styled.div`
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
-    padding: 25px 0;
+    padding: 30px 0;
     box-sizing: border-box;
 `;
 

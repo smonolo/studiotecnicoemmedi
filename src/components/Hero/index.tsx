@@ -18,23 +18,23 @@ export default function Hero() {
                 continua <span>collaborazione con i migliori professionisti</span> della zona quali notai,
                 commercialisti, broker e specialisti del settore edile,
                 dalla grande <span>ristrutturazione</span> alla <span>fornitura di pregio</span>.
+                <StyledButtons>
+                    <Link href='/servizi' passHref>
+                        <a>
+                            <Button className='white'>
+                                I nostri servizi
+                            </Button>
+                        </a>
+                    </Link>
+                    <Link href='/contatti' passHref>
+                        <a>
+                            <Button className='white'>
+                                Contatta lo studio
+                            </Button>
+                        </a>
+                    </Link>
+                </StyledButtons>
             </StyledTitle>
-            <StyledButtons>
-                <Link href='/servizi' passHref>
-                    <a>
-                        <Button>
-                            I nostri servizi <i className='bi bi-arrow-right' />
-                        </Button>
-                    </a>
-                </Link>
-                <Link href='/contatti' passHref>
-                    <a>
-                        <Button>
-                            Contatta lo studio <i className='bi bi-arrow-right' />
-                        </Button>
-                    </a>
-                </Link>
-            </StyledButtons>
         </Container>
     );
 }

@@ -14,7 +14,7 @@ export const StyledItems = styled.div`
 
 export const StyledCard = styled.div`
     width: 100%;
-    background-color: rgb(0, 0, 100, 0.05);
+    background-color: #22539930;
     border-radius: 15px;
     padding: 40px 35px;
     box-sizing: border-box;
@@ -29,7 +29,7 @@ export const StyledTitle = styled.div`
 export const StyledContent = styled.div`
     font-size: 16px;
     font-weight: 600;
-    color: #777790;
+    color: #444;
     margin-top: 15px;
 `;
 

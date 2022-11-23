@@ -2,23 +2,28 @@ import styled from "@emotion/styled";
 
 export const StyledTitle = styled.div`
     font-size: 35px;
-    font-weight: 700;
-    color: #444450;
+    font-weight: 600;
+    color: #fff;
     width: 100%;
     text-align: justify;
+    background-color: #225399;
+    padding: 100px;
+    box-sizing: border-box;
+    border-radius: 20px;
 
     & > span {
-        color: #225399;
+        color: #aaa;
     }
 
     @media (max-width: 900px) {
-        font-size: 25px;
+        font-size: 22px;
+        padding: 40px;
     }
 `;
 
 export const StyledButtons = styled.div`
     width: fit-content;
-    margin: 70px auto 0 auto;
+    margin: 50px auto 0 auto;
     display: flex;
     align-items: center;
     gap: 25px;
